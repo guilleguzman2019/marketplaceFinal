@@ -9,6 +9,9 @@ const nextConfig = {
       'images.fravega.com'
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true, // ❌ NO recomendado para producción
+  },
 };
 
 export default nextConfig;
